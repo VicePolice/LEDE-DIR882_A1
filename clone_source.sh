@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git clone "https://github.com/coolsnowwolf/immortalwrt.git"
+git clone "https://github.com/immortalwrt/immortalwrt"
 
 pushd "immortalwrt"; 
 sed -i -e 's/192.168.1.1/192.168.82.1/g' -e 's/OpenWrt/Dir_882_a1/g' package/base-files/files/bin/config_generate  #修改路由器管理IP地址和主机名
