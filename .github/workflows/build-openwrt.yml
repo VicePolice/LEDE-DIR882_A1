@@ -3,7 +3,7 @@ name: Build-immortalwrt
 on:
   push:
     branches: 
-      - master
+      - openwrt-18.06-k5.4
 #  release:
 #    types: published
 #  schedule:
